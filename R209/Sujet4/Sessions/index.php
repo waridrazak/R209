@@ -20,7 +20,7 @@
 
 <!-- Début du HTML généré par PHP -->			
 <?php
-	if (isset($_GET['msg']) && $_GET['msg'] == 'err') {
+	if ($_GET['msg'] == 'err') {
 		echo "<p><strong>Login ou mot de passe incorrect. Veuillez recommencer.</strong></p>";
 	}
 

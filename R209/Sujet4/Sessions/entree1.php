@@ -13,7 +13,7 @@
 		}
 	}
 
-	if (!isset($_SESSION['auth']) || $_SESSION['auth'] !== true) {
+	if ($_SESSION['auth'] !== true) {
 		header("Location: index.php");
 		exit();
 }

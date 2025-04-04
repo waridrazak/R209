@@ -1,7 +1,5 @@
 <?php
     $now = date("d/m/y à H:i:s");
-    $msg = "";
-
     if (isset($_COOKIE['dervisit'])) {
         $msg = "Ta dernière visite sur cette page date du " . $_COOKIE['dervisit'];
     } else {

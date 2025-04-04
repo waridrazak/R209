@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="Outils/style.css">
-    <title>Module M2105</title>
+    <title>Module R209</title>
 </head>
 
 <body>
     <header>Module M2105 : Web Dynamique</header>
-    <?php include "menu.php"; ?>
+    <?php include "menu.php" ?>
     <section>
         <p>
             Ce module est la suite du module M1106 (Initiation au développement Web) vu au semestre 1. Son objectif est la création de sites web mettant en œuvre des petits scripts côtés serveur afin de rendre <a>dynamique</a> le contenu des pages Web.
